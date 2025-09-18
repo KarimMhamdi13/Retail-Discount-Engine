@@ -30,3 +30,13 @@ for (let product of products) {
     product.promoPrice = promoPrice;
 
 }
+
+let customerType = "Student";
+
+if (customerType == "Student") {
+  console.log("Students get 5% off order total");
+} else if (customerType == "Senior") {
+  console.log("Seniors get 7% off order total");
+} else {
+  console.log("No Customer Discount detected");
+}
